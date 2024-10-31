@@ -1,0 +1,62 @@
+html,
+body {
+
+height: 100%; }
+
+body {
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+background: #ff9999;
+
+}
+
+img{
+
+width:150px;
+
+height:150px;
+
+border-radius: 50%;
+
+overflow:hidden;
+
+transition: transform 0.1s ease
+
+}
+
+grid-item {
+
+font-family: 'Brush Script MT', cursive;
+
+background-color: #ff9999;
+
+border: #ff9999;
+
+padding: 40px;
+
+font-size: 250px;
+
+text-align: center;
+}
+
+p{
+  color:white
+}
+
+Img:hover {
+
+transform: scale(1.05);
+
+box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
+
+}
+
+img:active{
+  transform : scale(0.95);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3)
+}
