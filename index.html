@@ -5,16 +5,17 @@
 </head>
 <body>
 <div class="grid-item"><p id="number"></p></div>
-<audio id="audio" controls onended-"randomNumber()">
+<audio id="audio" controls onended="randomNumber()">
   <source src="apt.ogg" type="audio/ogg">
   Your browser does not support the audio element.
 </audio>
 <div class="grid-item"><img src="button.png" onclick="playAudio()"></div>
 <script>
   function randomNumber() {
-    document.getElementById("number").innerHTML Math.floor(Math.random() 10+1); 
+    document.getElementById("number").innerHTML Math.floor(Math.random() * 10 + 1); 
   }
   var x = document.getElementById("audio");
+  
   function playAudio() (
     x.play();
   }
