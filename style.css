@@ -11,11 +11,11 @@ background: #ff9999;
 }
 
 img{
-width:150px;
-height:150px;
+width: 150px;
+height: 150px;
 border-radius: 50%;
-overflow:hidden;
-transition: transform 0.1s ease
+overflow: hidden;
+transition: transform 0.1s ease;
 }
 
 .grid-item {
@@ -28,15 +28,15 @@ text-align: center;
 }
 
 p{
-  color:white;
+  color: white;
 }
 
-img:hover {
+img: hover {
 transform: scale(1.05);
 box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
 }
 
-img:active{
+img: active{
   transform : scale(0.85);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3)
+  box-shadow : 0px 1px 3px rgba(0, 0, 0, 0.3);
 }
