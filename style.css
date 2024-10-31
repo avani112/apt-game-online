@@ -1,59 +1,39 @@
 html,
 body {
-
-height: 100%; }
+height: 100%; 
+}
 
 body {
-
 display: flex;
-
 align-items: center;
-
 justify-content: center;
-
 background: #ff9999;
-
 }
 
 img{
-
 width:150px;
-
 height:150px;
-
 border-radius: 50%;
-
 overflow:hidden;
-
 transition: transform 0.1s ease
-
 }
 
-grid-item {
-
+.grid-item {
 font-family: 'Brush Script MT', cursive;
-
 background-color: #ff9999;
-
 border: #ff9999;
-
 padding: 40px;
-
 font-size: 250px;
-
 text-align: center;
 }
 
 p{
-  color:white
+  color:white;
 }
 
-Img:hover {
-
+img:hover {
 transform: scale(1.05);
-
 box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
-
 }
 
 img:active{
