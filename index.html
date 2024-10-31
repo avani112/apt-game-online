@@ -1,0 +1,46 @@
+!DOCTYPE html>
+
+<html>
+
+<head>
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+<div class="grid-item"><p id="number"></p></div>
+
+<audio id="audio" controls onended-"randomNumber()">
+
+<source src="apt.m4a" type="audio/mpeg">
+
+Your browser does not support the audio element.
+
+</audio>
+
+<div class="grid-item"><img src="button.png" onclick="playAudio()"></div>
+
+I
+
+<script>
+
+function randomNumber() {
+
+document.getElementById("number").innerHTML Math.floor(Math.random() 10+1); }
+
+var x document.getElementById("audio");
+
+function playAudio() (
+
+x.play();
+
+}
+
+</script>
+
+</body>
+
+</html>
